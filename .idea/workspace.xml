@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9765395f-537f-46e9-a4ea-d4bbf0280b0f" name="Changes" comment="autowiring using @Autowired on field, constructor and setter level">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/configs/autowiring/annotation/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configs/autowiring/annotation/config.xml" afterDir="false" />
+    <list default="true" id="9765395f-537f-46e9-a4ea-d4bbf0280b0f" name="Changes" comment="@Qualifier to resolve bean ambiguity">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/autowiring/assignment/restaurant/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/autowiring/assignment/restaurant/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.coffeecode.springadvance.autowiring.assignment.restaurant" />
       <recent name="io.coffeecode.springadvance.autowiring" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -61,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/configs/autowiring/xml" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.io.coffeecode.springadvance.autowiring.annotation.Test">
+  <component name="RunManager" selected="Application.io.coffeecode.springadvance.autowiring.assignment.restaurant.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.coffeecode.springadvance.autowiring.xml.Test" />
       <module name="SpringAdvance" />
@@ -88,8 +90,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="io.coffeecode.springadvance.autowiring.assignment.restaurant.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.coffeecode.springadvance.autowiring.assignment.restaurant.Test" />
+      <module name="SpringAdvance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.coffeecode.springadvance.autowiring.assignment.restaurant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.io.coffeecode.springadvance.autowiring.assignment.restaurant.Test" />
         <item itemvalue="Application.io.coffeecode.springadvance.autowiring.annotation.Test" />
         <item itemvalue="Application.Test" />
       </list>
@@ -104,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668397555243</updated>
       <workItem from="1668397557096" duration="183000" />
-      <workItem from="1668397788171" duration="4353000" />
+      <workItem from="1668397788171" duration="5341000" />
     </task>
     <task id="LOCAL-00001" summary="autowiring by type">
       <created>1668412718783</created>
@@ -134,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668414346173</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="@Qualifier to resolve bean ambiguity">
+      <created>1668414943104</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668414943104</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +179,7 @@
     <MESSAGE value="autowiring by name" />
     <MESSAGE value="autowiring by constructor" />
     <MESSAGE value="autowiring using @Autowired on field, constructor and setter level" />
-    <option name="LAST_COMMIT_MESSAGE" value="autowiring using @Autowired on field, constructor and setter level" />
+    <MESSAGE value="@Qualifier to resolve bean ambiguity" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Qualifier to resolve bean ambiguity" />
   </component>
 </project>
