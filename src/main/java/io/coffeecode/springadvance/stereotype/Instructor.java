@@ -4,6 +4,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 @Component("inst")
 @Scope("prototype")
 public class Instructor {
@@ -11,6 +13,9 @@ public class Instructor {
     private int id = 100;
     @Value("James Gosling")
     private String name = "Bharat Thipperedy";
+
+    @Value("#{subjects}")
+    private List<String> subjects;
 
     public int getId() {
         return id;
@@ -33,6 +38,7 @@ public class Instructor {
         return "Instructor{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
+                ", subjects=" + subjects +
                 '}';
     }
 }

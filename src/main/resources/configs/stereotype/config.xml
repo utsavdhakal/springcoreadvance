@@ -14,4 +14,10 @@
 
     <context:component-scan base-package="io.coffeecode.springadvance.stereotype"/>
 
+    <util:list id="subjects" list-class="java.util.LinkedList">
+        <value>Core Java</value>
+        <value>Spring</value>
+        <value>Spring Boot</value>
+    </util:list>
+
 </beans>
