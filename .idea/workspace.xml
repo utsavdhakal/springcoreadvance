@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9765395f-537f-46e9-a4ea-d4bbf0280b0f" name="Changes" comment="*** autowiring assignment completed ***">
+    <list default="true" id="9765395f-537f-46e9-a4ea-d4bbf0280b0f" name="Changes" comment="standalone collection using util schema">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/standalonecollection/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/standalonecollection/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,22 +33,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/utsav/intellij-workspace/SpringAdvance/src/main/resources/configs/autowiring/annotation&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;08f71e4475b22b864d51bc95b2eee27d&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/utsav/intellij-workspace/SpringAdvance/src/main/resources/configs/autowiring/annotation",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "spring.configuration.checksum": "08f71e4475b22b864d51bc95b2eee27d"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="io.coffeecode.springadvance.autowiring.assignment.restaurant" />
@@ -64,7 +64,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/configs/autowiring/xml" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.io.coffeecode.springadvance.standalonecollection.Test">
+  <component name="RunManager" selected="Application.io.coffeecode.springadvance.stereotype.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.coffeecode.springadvance.autowiring.xml.Test" />
       <module name="SpringAdvance" />
@@ -117,8 +117,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="io.coffeecode.springadvance.stereotype.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.coffeecode.springadvance.stereotype.Test" />
+      <module name="SpringAdvance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.coffeecode.springadvance.stereotype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.io.coffeecode.springadvance.stereotype.Test" />
         <item itemvalue="Application.io.coffeecode.springadvance.standalonecollection.Test" />
         <item itemvalue="Application.io.coffeecode.springadvance.autowiring.assignment.restaurant.Test" />
         <item itemvalue="Application.io.coffeecode.springadvance.autowiring.annotation.Test" />
@@ -127,6 +141,10 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="showFiles" value="false" />
+    <option name="showImplicitBeans" value="false" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9765395f-537f-46e9-a4ea-d4bbf0280b0f" name="Changes" comment="" />
@@ -136,7 +154,7 @@
       <updated>1668397555243</updated>
       <workItem from="1668397557096" duration="183000" />
       <workItem from="1668397788171" duration="5474000" />
-      <workItem from="1668422700529" duration="1101000" />
+      <workItem from="1668422700529" duration="3081000" />
     </task>
     <task id="LOCAL-00001" summary="autowiring by type">
       <created>1668412718783</created>
@@ -180,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668415714938</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="standalone collection using util schema">
+      <created>1668423912330</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668423912330</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +229,12 @@
     <MESSAGE value="autowiring using @Autowired on field, constructor and setter level" />
     <MESSAGE value="@Qualifier to resolve bean ambiguity" />
     <MESSAGE value="*** autowiring assignment completed ***" />
-    <option name="LAST_COMMIT_MESSAGE" value="*** autowiring assignment completed ***" />
+    <MESSAGE value="standalone collection" />
+    <MESSAGE value="standalone collection using util schema" />
+    <option name="LAST_COMMIT_MESSAGE" value="standalone collection using util schema" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
