@@ -1,13 +1,16 @@
 package io.coffeecode.springadvance.stereotype;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component("inst")
 @Scope("prototype")
 public class Instructor {
-    private int id;
-    private String name;
+    @Value("101")
+    private int id = 100;
+    @Value("James Gosling")
+    private String name = "Bharat Thipperedy";
 
     public int getId() {
         return id;

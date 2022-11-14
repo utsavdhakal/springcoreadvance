@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9765395f-537f-46e9-a4ea-d4bbf0280b0f" name="Changes" comment="providing name explicitly to component bean">
+    <list default="true" id="9765395f-537f-46e9-a4ea-d4bbf0280b0f" name="Changes" comment="@Scope annotation for declaring scope of a bean">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/stereotype/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/stereotype/Instructor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/stereotype/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/stereotype/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +156,7 @@
       <updated>1668397555243</updated>
       <workItem from="1668397557096" duration="183000" />
       <workItem from="1668397788171" duration="5474000" />
-      <workItem from="1668422700529" duration="3512000" />
+      <workItem from="1668422700529" duration="4858000" />
     </task>
     <task id="LOCAL-00001" summary="autowiring by type">
       <created>1668412718783</created>
@@ -219,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668432535712</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="@Scope annotation for declaring scope of a bean">
+      <created>1668432874004</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668432874004</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +256,8 @@
     <MESSAGE value="standalone collection using util schema" />
     <MESSAGE value="using @Component to create bean" />
     <MESSAGE value="providing name explicitly to component bean" />
-    <option name="LAST_COMMIT_MESSAGE" value="providing name explicitly to component bean" />
+    <MESSAGE value="@Scope annotation for declaring scope of a bean" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Scope annotation for declaring scope of a bean" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
