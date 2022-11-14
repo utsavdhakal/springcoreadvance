@@ -1,5 +1,6 @@
 package io.coffeecode.springadvance.stereotype;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
@@ -16,6 +17,9 @@ public class Instructor {
 
     @Value("#{subjects}")
     private List<String> subjects;
+
+    @Autowired
+    private Profile profile;
 
     public int getId() {
         return id;
@@ -39,6 +43,7 @@ public class Instructor {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", subjects=" + subjects +
+                ", profile=" + profile +
                 '}';
     }
 }
