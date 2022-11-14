@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9765395f-537f-46e9-a4ea-d4bbf0280b0f" name="Changes" comment="standalone collection using util schema">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9765395f-537f-46e9-a4ea-d4bbf0280b0f" name="Changes" comment="providing name explicitly to component bean">
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/stereotype/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/stereotype/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +154,7 @@
       <updated>1668397555243</updated>
       <workItem from="1668397557096" duration="183000" />
       <workItem from="1668397788171" duration="5474000" />
-      <workItem from="1668422700529" duration="3081000" />
+      <workItem from="1668422700529" duration="3512000" />
     </task>
     <task id="LOCAL-00001" summary="autowiring by type">
       <created>1668412718783</created>
@@ -205,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668423912330</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="using @Component to create bean">
+      <created>1668432355944</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668432355944</updated>
+    </task>
+    <task id="LOCAL-00009" summary="providing name explicitly to component bean">
+      <created>1668432535712</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668432535712</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +245,9 @@
     <MESSAGE value="*** autowiring assignment completed ***" />
     <MESSAGE value="standalone collection" />
     <MESSAGE value="standalone collection using util schema" />
-    <option name="LAST_COMMIT_MESSAGE" value="standalone collection using util schema" />
+    <MESSAGE value="using @Component to create bean" />
+    <MESSAGE value="providing name explicitly to component bean" />
+    <option name="LAST_COMMIT_MESSAGE" value="providing name explicitly to component bean" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
