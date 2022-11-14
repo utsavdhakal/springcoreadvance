@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9765395f-537f-46e9-a4ea-d4bbf0280b0f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="9765395f-537f-46e9-a4ea-d4bbf0280b0f" name="Changes" comment="autowiring by name">
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/autowiring/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/autowiring/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/configs/autowiring/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configs/autowiring/config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +83,23 @@
       <option name="presentableId" value="Default" />
       <updated>1668397555243</updated>
       <workItem from="1668397557096" duration="183000" />
-      <workItem from="1668397788171" duration="2402000" />
+      <workItem from="1668397788171" duration="2902000" />
     </task>
+    <task id="LOCAL-00001" summary="autowiring by type">
+      <created>1668412718783</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668412718783</updated>
+    </task>
+    <task id="LOCAL-00002" summary="autowiring by name">
+      <created>1668412951840</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668412951840</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,5 +115,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="autowiring by type" />
+    <MESSAGE value="autowiring by name" />
+    <option name="LAST_COMMIT_MESSAGE" value="autowiring by name" />
   </component>
 </project>

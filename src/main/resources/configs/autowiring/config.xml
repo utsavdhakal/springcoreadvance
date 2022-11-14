@@ -11,6 +11,6 @@
 
     <bean name="address" class="io.coffeecode.springadvance.autowiring.Address" p:street="Anamnagar"/>
 
-    <bean name="employee" class="io.coffeecode.springadvance.autowiring.Employee" autowire="byName"/>
+    <bean name="employee" class="io.coffeecode.springadvance.autowiring.Employee" autowire="constructor"/>
 
 </beans>
