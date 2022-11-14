@@ -1,4 +1,4 @@
-package io.coffeecode.springadvance.autowiring;
+package io.coffeecode.springadvance.autowiring.xml;
 
 public class Address {
     private String street;

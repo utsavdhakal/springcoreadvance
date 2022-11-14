@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9765395f-537f-46e9-a4ea-d4bbf0280b0f" name="Changes" comment="autowiring by name">
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/autowiring/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/autowiring/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/configs/autowiring/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configs/autowiring/config.xml" afterDir="false" />
+    <list default="true" id="9765395f-537f-46e9-a4ea-d4bbf0280b0f" name="Changes" comment="autowiring by constructor">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/autowiring/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/autowiring/xml/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/autowiring/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/autowiring/xml/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/autowiring/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/autowiring/xml/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/configs/autowiring/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configs/autowiring/xml/config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/utsav/intellij-workspace/SpringAdvance/src/main/resources/configs/autowiring/annotation",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,14 +57,34 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="io.coffeecode.springadvance.autowiring" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/configs/autowiring/annotation" />
+      <recent name="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/autowiring/annotation" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/configs/autowiring/xml" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.io.coffeecode.springadvance.autowiring.annotation.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.coffeecode.springadvance.autowiring.Test" />
+      <option name="MAIN_CLASS_NAME" value="io.coffeecode.springadvance.autowiring.xml.Test" />
       <module name="SpringAdvance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.coffeecode.springadvance.autowiring.*" />
+          <option name="PATTERN" value="io.coffeecode.springadvance.autowiring.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="io.coffeecode.springadvance.autowiring.annotation.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.coffeecode.springadvance.autowiring.annotation.Test" />
+      <module name="SpringAdvance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.coffeecode.springadvance.autowiring.annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.io.coffeecode.springadvance.autowiring.annotation.Test" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -83,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668397555243</updated>
       <workItem from="1668397557096" duration="183000" />
-      <workItem from="1668397788171" duration="2902000" />
+      <workItem from="1668397788171" duration="3978000" />
     </task>
     <task id="LOCAL-00001" summary="autowiring by type">
       <created>1668412718783</created>
@@ -99,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668412951840</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="autowiring by constructor">
+      <created>1668413311520</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668413311520</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +151,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="autowiring by type" />
     <MESSAGE value="autowiring by name" />
-    <option name="LAST_COMMIT_MESSAGE" value="autowiring by name" />
+    <MESSAGE value="autowiring by constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="autowiring by constructor" />
   </component>
 </project>

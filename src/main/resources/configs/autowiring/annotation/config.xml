@@ -9,8 +9,10 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean name="address" class="io.coffeecode.springadvance.autowiring.Address" p:street="Anamnagar"/>
+    <context:annotation-config/>
 
-    <bean name="employee" class="io.coffeecode.springadvance.autowiring.Employee" autowire="constructor"/>
+    <bean class="io.coffeecode.springadvance.autowiring.annotation.Address" p:street="Anamnagar"/>
+
+    <bean name="employee" class="io.coffeecode.springadvance.autowiring.annotation.Employee"/>
 
 </beans>
