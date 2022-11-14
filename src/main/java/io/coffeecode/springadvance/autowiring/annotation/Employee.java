@@ -1,6 +1,7 @@
 package io.coffeecode.springadvance.autowiring.annotation;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Employee {
     private Address address;
@@ -9,7 +10,7 @@ public class Employee {
     }
 
     @Autowired
-    public Employee(Address address) {
+    public Employee(@Qualifier("address2") Address address) {
         this.address = address;
     }
 
