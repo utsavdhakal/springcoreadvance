@@ -10,7 +10,8 @@ import java.util.List;
 @Component("inst")
 @Scope("prototype")
 public class Instructor {
-    @Value("#{T(java.lang.Math).abs(-140)}")
+    /*@Value("#{new Integer(80)}")*/
+    @Value("#{T(java.lang.Integer).MAX_VALUE}")
     private int id = 100;
     @Value("James Gosling")
     private String name = "Bharat Thipperedy";
