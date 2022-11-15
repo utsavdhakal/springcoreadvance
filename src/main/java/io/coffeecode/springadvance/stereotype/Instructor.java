@@ -13,7 +13,7 @@ public class Instructor {
     /*@Value("#{new Integer(80)}")*/
     @Value("#{T(java.lang.Integer).MAX_VALUE}")
     private int id = 100;
-    @Value("James Gosling")
+    @Value("#{new String('James Gosling').toUpperCase()}")
     private String name = "Bharat Thipperedy";
 
     @Value("#{subjects}")
