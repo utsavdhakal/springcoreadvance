@@ -10,7 +10,7 @@ import java.util.List;
 @Component("inst")
 @Scope("prototype")
 public class Instructor {
-    @Value("#{100+40}")
+    @Value("#{T(java.lang.Math).abs(-140)}")
     private int id = 100;
     @Value("James Gosling")
     private String name = "Bharat Thipperedy";
