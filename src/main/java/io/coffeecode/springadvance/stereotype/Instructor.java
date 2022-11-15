@@ -10,11 +10,13 @@ import java.util.List;
 @Component("inst")
 @Scope("prototype")
 public class Instructor {
-    /*@Value("#{new Integer(80)}")*/
     @Value("#{T(java.lang.Integer).MAX_VALUE}")
     private int id = 100;
     @Value("#{new String('James Gosling').toUpperCase()}")
     private String name = "Bharat Thipperedy";
+
+    @Value("#{!true}")
+    private boolean active;
 
     @Value("#{subjects}")
     private List<String> subjects;
@@ -43,8 +45,10 @@ public class Instructor {
         return "Instructor{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
+                ", active=" + active +
                 ", subjects=" + subjects +
                 ", profile=" + profile +
                 '}';
     }
+
 }
