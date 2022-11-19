@@ -11,6 +11,8 @@
 
     <bean id="dao" class="io.coffeecode.springadvance.injectinginterfaces.OrderDAOImpl"/>
 
-    <bean id="bo" class="io.coffeecode.springadvance.injectinginterfaces.OrderBOImpl" p:dao-ref="dao"/>
+    <bean id="dao2" class="io.coffeecode.springadvance.injectinginterfaces.OrderDAOImpl2"/>
+
+    <bean id="bo" class="io.coffeecode.springadvance.injectinginterfaces.OrderBOImpl" p:dao-ref="dao2"/>
 
 </beans>
