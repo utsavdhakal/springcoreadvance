@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9765395f-537f-46e9-a4ea-d4bbf0280b0f" name="Changes" comment="injecting interfaces" />
+    <list default="true" id="9765395f-537f-46e9-a4ea-d4bbf0280b0f" name="Changes" comment="switching the implementation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/injectinginterfaces/OrderBOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/injectinginterfaces/OrderBOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/injectinginterfaces/OrderDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/injectinginterfaces/OrderDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/injectinginterfaces/OrderDAOImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/coffeecode/springadvance/injectinginterfaces/OrderDAOImpl2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/configs/injectinginterfaces/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configs/injectinginterfaces/config.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +163,7 @@
       <workItem from="1668422700529" duration="6356000" />
       <workItem from="1668480049717" duration="1594000" />
       <workItem from="1668538316983" duration="9000" />
-      <workItem from="1668830321048" duration="1738000" />
+      <workItem from="1668830321048" duration="2661000" />
     </task>
     <task id="LOCAL-00001" summary="autowiring by type">
       <created>1668412718783</created>
@@ -299,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668832012393</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="switching the implementation">
+      <created>1668832177834</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1668832177834</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +350,8 @@
     <MESSAGE value="spel with strings" />
     <MESSAGE value="spel with boolean" />
     <MESSAGE value="injecting interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="injecting interfaces" />
+    <MESSAGE value="switching the implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="switching the implementation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
