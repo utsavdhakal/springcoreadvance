@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9765395f-537f-46e9-a4ea-d4bbf0280b0f" name="Changes" comment="injecting collection using @Value" />
+    <list default="true" id="9765395f-537f-46e9-a4ea-d4bbf0280b0f" name="Changes" comment="spel with boolean">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -31,25 +34,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/utsav/intellij-workspace/SpringAdvance/src/main/resources/configs/autowiring/annotation",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "spring.configuration.checksum": "08f71e4475b22b864d51bc95b2eee27d"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/utsav/intellij-workspace/SpringAdvance/src/main/resources/configs/autowiring/annotation&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;08f71e4475b22b864d51bc95b2eee27d&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.coffeecode.springadvance.stereotype" />
       <recent name="io.coffeecode.springadvance.autowiring.assignment.restaurant" />
       <recent name="io.coffeecode.springadvance.autowiring" />
     </key>
@@ -62,20 +66,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/configs/autowiring/xml" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.io.coffeecode.springadvance.stereotype.Test">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.coffeecode.springadvance.autowiring.xml.Test" />
-      <module name="SpringAdvance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.coffeecode.springadvance.autowiring.xml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.io.coffeecode.springadvance.injectinginterfaces.Test">
     <configuration name="io.coffeecode.springadvance.autowiring.annotation.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.coffeecode.springadvance.autowiring.annotation.Test" />
       <module name="SpringAdvance" />
@@ -95,6 +86,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.coffeecode.springadvance.autowiring.assignment.restaurant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="io.coffeecode.springadvance.injectinginterfaces.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.coffeecode.springadvance.injectinginterfaces.Test" />
+      <module name="SpringAdvance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.coffeecode.springadvance.injectinginterfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.io.coffeecode.springadvance.injectinginterfaces.Test" />
         <item itemvalue="Application.io.coffeecode.springadvance.stereotype.Test" />
         <item itemvalue="Application.io.coffeecode.springadvance.standalonecollection.Test" />
         <item itemvalue="Application.io.coffeecode.springadvance.autowiring.assignment.restaurant.Test" />
         <item itemvalue="Application.io.coffeecode.springadvance.autowiring.annotation.Test" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +156,10 @@
       <updated>1668397555243</updated>
       <workItem from="1668397557096" duration="183000" />
       <workItem from="1668397788171" duration="5474000" />
-      <workItem from="1668422700529" duration="5885000" />
+      <workItem from="1668422700529" duration="6356000" />
+      <workItem from="1668480049717" duration="1594000" />
+      <workItem from="1668538316983" duration="9000" />
+      <workItem from="1668830321048" duration="1410000" />
     </task>
     <task id="LOCAL-00001" summary="autowiring by type">
       <created>1668412718783</created>
@@ -238,7 +245,56 @@
       <option name="project" value="LOCAL" />
       <updated>1668436341829</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="injecting object using @Autowired">
+      <created>1668437100321</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668437100321</updated>
+    </task>
+    <task id="LOCAL-00014" summary="injecting object using @Autowired">
+      <created>1668437135588</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668437135588</updated>
+    </task>
+    <task id="LOCAL-00015" summary="spring expression language with primitives">
+      <created>1668480316939</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668480316940</updated>
+    </task>
+    <task id="LOCAL-00016" summary="using static method with SPEL">
+      <created>1668480559324</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668480559324</updated>
+    </task>
+    <task id="LOCAL-00017" summary="accessing static variables and creating objects">
+      <created>1668480988344</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668480988344</updated>
+    </task>
+    <task id="LOCAL-00018" summary="spel with strings">
+      <created>1668481270057</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1668481270057</updated>
+    </task>
+    <task id="LOCAL-00019" summary="spel with boolean">
+      <created>1668481598224</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1668481598224</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +325,13 @@
     <MESSAGE value="@Scope annotation for declaring scope of a bean" />
     <MESSAGE value="injecting primitives using @Value" />
     <MESSAGE value="injecting collection using @Value" />
-    <option name="LAST_COMMIT_MESSAGE" value="injecting collection using @Value" />
+    <MESSAGE value="injecting object using @Autowired" />
+    <MESSAGE value="spring expression language with primitives" />
+    <MESSAGE value="using static method with SPEL" />
+    <MESSAGE value="accessing static variables and creating objects" />
+    <MESSAGE value="spel with strings" />
+    <MESSAGE value="spel with boolean" />
+    <option name="LAST_COMMIT_MESSAGE" value="spel with boolean" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
